@@ -1,0 +1,128 @@
+/*whole document*/
+:root {
+    --primary-bg-color: #faf7f4;
+    --white-color:#ffffff;
+    --cream-color:#f9f9f9;
+    --charcoal-color:#222831;
+    --coral-color:#FF7B54;
+}
+
+html {
+    width:100vw;
+    background-color:var(--primary-bg-color);
+}
+
+
+/*Header*/
+header {
+    width:100%;
+    text-align: center;
+}
+
+header nav {
+    margin: 0 auto;
+}
+
+header nav ul {
+    width:fit-content;
+    display: flex;
+    flex-direction: row;
+    margin: 16px auto 0;
+    gap:48px;
+    border: 1px solid var(--cream-color);
+    border-radius:50px;
+    box-shadow: 1px 1px 2px 2px rgb(255,255,255,0.8);
+    background-color: var(--white-color);
+    align-items: center;
+    padding: 0 48px;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li:nth-child(odd) {
+    padding: 16px 0px;
+}
+
+header nav ul li:nth-child(even) {
+    width: 1px;
+    height:48px;
+    background-color:var(--cream-color);
+    opacity: 40%;
+}
+
+header a {
+    text-decoration: none;
+    font-weight:600;
+}
+
+
+/*body*/
+body {
+    margin:0px;
+}
+
+
+/*fonts*/
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'raleway';
+}
+
+h1 {
+    font-size:48px;
+}
+
+h2 {
+    font-size:28px;
+}
+
+h3 {
+    font-size:26px;
+}
+
+h4 {
+    font-size:20px;
+}
+
+h5 {
+    font-size:18px;
+}
+
+h6 {
+    font-size:16px;
+}
+
+p, li, span, div {
+    font-size:20px;
+}
+
+
+ul, ol, li, nav, p, div, span, a {
+    font-family: 'lora';
+}
+
+main a, header a:hover {
+    color:var(--coral-color);
+}
+
+main a:hover, header a {
+    color:var(--charcoal-color);
+}
+
+
+/*footer*/
+footer {
+    position: fixed;
+    width:100%;
+    bottom:0;
+    left:0;
+    background-color: var(--charcoal-color);
+    padding: 0px;
+}
+
+footer p, footer span  {
+        text-align: center;
+        color:var(--cream-color);
+        font-size: 16px;
+}
