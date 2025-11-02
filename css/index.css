@@ -262,7 +262,7 @@ section .imgbg {
 }
 
 .hero {
-    height:auto;
+    height: auto !important;;
 }
 
 .topics {
@@ -276,7 +276,7 @@ section .imgbg {
 }
 
 .rightcolumnhero {
-    padding-bottom:96px
+    padding-bottom:0px;
 }
 
 .leftcolumnhero {
