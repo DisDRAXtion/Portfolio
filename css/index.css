@@ -253,12 +253,16 @@ section .imgbg {
     position: absolute;
     top:0;
     bottom:0px;
-    padding-top:24px;
-    padding-bottom:24px;
+    padding-top:16px;
+    padding-bottom:16px;
 }
 
 .hero img {
     width:175px;
+}
+
+.hero {
+    height:auto;
 }
 
 .topics {
