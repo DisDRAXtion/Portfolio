@@ -169,7 +169,10 @@ body {
     margin-left: 0px;
     position: absolute;
     top:auto;
-    bottom:96px;
+    bottom:0px;
+    padding-top:24px;
+    padding-bottom:24px;
+
 }
 
 .leftcolumnhero {
