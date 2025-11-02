@@ -168,7 +168,7 @@ body {
 .herosection {
     margin-left: 0px;
     position: absolute;
-    top:auto;
+    top:0;
     bottom:0px;
     padding-top:24px;
     padding-bottom:24px;
@@ -195,6 +195,10 @@ body {
     max-height: fit-content;
     gap: 16px;
 
+}
+
+.rightcolumnhero {
+    padding-bottom:96px
 }
 
 .rightcolumnhero > h1, .rightcolumnhero > h2, .rightcolumnhero > p {
