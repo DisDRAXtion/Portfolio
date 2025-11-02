@@ -172,7 +172,6 @@ body {
     bottom:0px;
     padding-top:24px;
     padding-bottom:24px;
-
 }
 
 .leftcolumnhero {
@@ -251,6 +250,9 @@ section .imgbg {
     margin-left: 0px;
     position: absolute;
     top:0;
+    bottom:0px;
+    padding-top:24px;
+    padding-bottom:24px;
 }
 
 .hero img {
@@ -265,6 +267,10 @@ section .imgbg {
     max-height: fit-content;
     gap: 16px;
     padding-bottom: 100px;
+}
+
+.rightcolumnhero {
+    padding-bottom:96px
 }
 
 .leftcolumnhero {
